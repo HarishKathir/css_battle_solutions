@@ -1,0 +1,41 @@
+<p a><p b><p c><style>
+    *{
+      background-color:#191210;
+      color:#191210;
+    }
+    body{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    p{
+      width:50;
+      height:50;
+      background-color:#84271C;
+      border-radius:50%;
+      border:25px solid #191210;
+      box-shadow:0 0 0  20px #ECA03D;
+      position:relative;
+      z-index:2;
+    }
+    [a],[c]{
+    box-shadow:none;
+    background-color:#191210;
+    border:20px solid #ECA03D;
+    width:60;
+    height:60;
+    top:84;
+    left:50;
+    position:absolute;
+    border-left-color:transparent;
+    border-top-color:transparent;
+  }
+  [a]{
+    transform:rotate(45deg);
+  }
+  [c]{
+    left:250;
+    transform:rotate(225deg);
+    z-index:1;
+  }
+  </style>
